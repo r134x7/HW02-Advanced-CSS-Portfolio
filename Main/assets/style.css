@@ -1,4 +1,3 @@
-/* color scheme sourced from http://khroma.co/generator/ */
 :root {
   --c1: #33393f;
   --bc1: #2aef7650;
@@ -93,7 +92,7 @@ h2 {
 
 h3 {
   font-size: 40px;
-  padding: 2em 2em 2em 1em;
+  padding: 2em 1em 2em 1em;
   float: left;
   position: relative;
   /* left: 10px;
@@ -101,6 +100,15 @@ h3 {
 }
 
 h4 {
+  font-size: 40px;
+  padding: 2em 2em 2em 1em;
+  float: left;
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+}
+
+h5 {
   font-size: 40px;
   padding: 2em 2em 2em 1em;
   float: left;
@@ -127,24 +135,57 @@ p {
 .works {
   display: inline-flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 #worksimg1 {
   float: right;
   position: relative;
-  margin: 0px 0px 0px 0px;
+  border: solid #33393f;
+  margin: 0px 0px 20px 35px;
 }
 
 #worksimg2 {
   float: right;
   position: relative;
+  margin: 0px 20px 20px 35px;
+  border: solid #33393f;
 }
 
 #worksimg3 {
   float: right;
   position: relative;
+  margin: 0px 20px 20px 35px;
+  border: solid #33393f;
+}
+
+#worksimg4 {
+  float: right;
+  position: relative;
+  margin: 0px 20px 20px 35px;
+  border: solid #33393f;
+}
+
+#worksimg5 {
+  float: right;
+  position: relative;
+  margin: 0px 20px 20px 35px;
+  border: solid #33393f;
+}
+
+.videos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#videoimg1 {
+  float: right;
+  position: relative;
+  border: solid #33393f;
+  margin: 0px 0px 20px 35px;
 }
 
 .contact nav, .contact ul, .contact a {
