@@ -82,7 +82,8 @@ header li {
 }
 
 #c1 {
-  max-width: 200px;
+  box-sizing: content-box;
+  width: 300px;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -90,7 +91,8 @@ header li {
 }
 
 #c2 {
-  max-width: 200px;
+  box-sizing: content-box;
+  width: 300px;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -156,6 +158,8 @@ p {
 }
 
 #worksimg1 {
+  box-sizing: border-box;
+  width: 100%;
   float: right;
   position: relative;
   border: solid #33393f;
@@ -163,6 +167,8 @@ p {
 }
 
 #worksimg2 {
+  box-sizing: border-box;
+  width: 100%;
   float: right;
   position: relative;
   margin: 0px 20px 20px 35px;
@@ -170,6 +176,8 @@ p {
 }
 
 #worksimg3 {
+  box-sizing: border-box;
+  width: 100%;
   float: right;
   position: relative;
   margin: 0px 20px 20px 35px;
@@ -177,6 +185,8 @@ p {
 }
 
 #worksimg4 {
+  box-sizing: border-box;
+  width: 100%;
   float: right;
   position: relative;
   margin: 0px 20px 20px 35px;
@@ -184,6 +194,8 @@ p {
 }
 
 #worksimg5 {
+  box-sizing: border-box;
+  width: 100%;
   float: right;
   position: relative;
   margin: 0px 20px 20px 35px;
@@ -198,6 +210,8 @@ p {
 }
 
 #videoimg1 {
+  box-sizing: content-box;
+  width: 100%;
   float: right;
   position: relative;
   border: solid #33393f;
