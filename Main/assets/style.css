@@ -1,0 +1,145 @@
+/* color scheme sourced from http://khroma.co/generator/ */
+:root {
+  --c1: #33393f;
+  --bc1: #2aef7650;
+  --bc2: #72310b85;
+  --bc3: #ff4747;
+}
+
+body {
+  background-image: linear-gradient( 
+    var(--bc2),
+    var(--bc1) 
+  );
+}
+
+/* .pulse {
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    animation-iteration-count: 100;
+    animation-name: fadeInOut;
+    animation-duration: 0.7s;
+} */
+  
+  /* @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    } */
+  
+/* 
+  animation: infinite;
+  animation-name: fadeInOut, moveLeft300px, bounce;
+  animation-duration: 3s;
+  animation-iteration-count: 1; 
+} */
+
+header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background-color: var(--bc3); */
+
+  color: #ffffff;
+  background-image: linear-gradient( 
+    45deg,
+    var(--bc3),
+    var(--bc1) 
+  );
+
+  /* Turns this element into a flexbox */
+  display: flex;
+  /* Forces elements to the next line if they don't fit */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+/* navigation bar settings  */
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+}
+
+header ul, header a {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+h2, h3, h4 {
+  font-size: 40px;
+  padding: 2em 2em 2em 2em;
+  float: left;
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+}
+
+.about {
+  text-align: left;
+  /* width: 75em; */
+  padding: 3em;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  /* word-wrap: normal; */
+}
+
+p {
+  font-size: 16px;
+  
+}
+
+.works {
+    display: grid;
+    width: 100%;
+    /* grid-template-columns: repeat(12, 1fr); */
+    grid-template-columns: 1fr 60px;
+}
+
+.contact nav {
+  padding-top: 15px;
+  /* margin-right: 20px; */
+  /* float: right; */
+  display: inline-block;
+  margin-left: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  list-style-type: none;
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+section {
+   /* Turns this element into a flexbox */
+   /* display: flex; */
+   /* Forces elements to the next line if they don't fit */
+   /* flex-wrap: wrap; */
+   /* justify-content: space-between; */
+   /* align-items: center; */
+}    
+
+
+/* .linear-gradient-background {
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+} */
