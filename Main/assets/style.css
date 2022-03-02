@@ -82,9 +82,27 @@ header li {
   margin-left: 25px;
 }
 
-h2, h3, h4 {
+h2 {
   font-size: 40px;
-  padding: 2em 2em 2em 2em;
+  padding: 2em 2em 2em 0em;
+  float: left;
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+}
+
+h3 {
+  font-size: 40px;
+  padding: 2em 2em 2em 1em;
+  float: left;
+  position: relative;
+  /* left: 10px;
+  top: 10px; */
+}
+
+h4 {
+  font-size: 40px;
+  padding: 2em 2em 2em 1em;
   float: left;
   position: relative;
   /* left: 10px;
@@ -96,7 +114,7 @@ h2, h3, h4 {
   /* width: 75em; */
   padding: 3em;
   display: inline-flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   /* word-wrap: normal; */
 }
@@ -107,34 +125,52 @@ p {
 }
 
 .works {
-    display: grid;
-    width: 100%;
-    /* grid-template-columns: repeat(12, 1fr); */
-    grid-template-columns: 1fr 60px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.contact nav {
-  padding-top: 15px;
+#worksimg1 {
+  float: right;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+}
+
+#worksimg2 {
+  float: right;
+  position: relative;
+}
+
+#worksimg3 {
+  float: right;
+  position: relative;
+}
+
+.contact nav, .contact ul, .contact a {
+     padding-top: 30px;
   /* margin-right: 20px; */
   /* float: right; */
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
   list-style-type: none;
   color: #ffffff;
-  text-decoration: none;
-
+  text-decoration: underline;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-section {
+
    /* Turns this element into a flexbox */
    /* display: flex; */
    /* Forces elements to the next line if they don't fit */
    /* flex-wrap: wrap; */
    /* justify-content: space-between; */
    /* align-items: center; */
-}    
+
 
 
 /* .linear-gradient-background {
