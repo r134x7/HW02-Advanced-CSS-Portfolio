@@ -285,25 +285,25 @@ p {
 }
 
 @media screen and (max-width: 2560px) {
-  main {
-    width: 45%;
+  .works, .videos, .contact {
+    width: 50%;
   }
 }
 
 @media screen and (max-width: 1900px) {
-  main {
+  .works, .videos, .contact {
     width: 66%;
   }
 }
 
-@media screen and (max-width: 1460px) {
-  main {
-    width: 90%;
+@media screen and (max-width: 1300px) {
+  .works, .videos, .contact {
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 1099px) {
-  main {
-    width: 75%;
+@media screen and (max-width: 900px) {
+  .works, .videos, .contact {
+    width: 90%;
   }
 }
