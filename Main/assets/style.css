@@ -137,14 +137,28 @@ h5 {
   top: 10px; */
 }
 
-.about {
+#about1 {
   text-align: left;
-  /* width: 75em; */
   padding: 3em;
   display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
-  /* word-wrap: normal; */
+}
+
+#about2 {
+  margin: 25px 25px 25px 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 32px;
+  list-style-type: none;
+  color: #ffffff;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: linear-gradient(
+    45deg,
+    var(--bc3),
+    var(--bc1)
+  );
 }
 
 /* Settings taken from https://github.com/r134x7/HW01-Code-Refactor */
@@ -254,8 +268,6 @@ p {
 .contact nav, .contact ul, .contact a {
   padding-top: 30px;
   margin-right: 20px;
-  /* float: right; */
-  /* display: inline-block; */
   margin-left: 25px;
   margin-bottom: 25px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -270,4 +282,28 @@ p {
 
 .contact li {
   background-color: #33393f;
+}
+
+@media screen and (max-width: 2560px) {
+  main {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  main {
+    width: 66%;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  main {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  main {
+    width: 75%;
+  }
 }
